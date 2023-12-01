@@ -25,7 +25,7 @@ const Contact = () => {
         <Col md={6}>
           <Form onSubmit={handleContact}>
             <Form.Group className="mb-3" controlId="formName">
-              <Form.Lable>Your Name</Form.Lable>
+              <Form.Label>Your Name</Form.Label>
               <Form.Control value={name} onChange={(e)=> setName(e.target.value)} required type="text" placeholder="Enter your name" />
             </Form.Group>
 
