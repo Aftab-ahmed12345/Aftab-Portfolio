@@ -8,6 +8,44 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Times New Roman', Times, serif,
     monospace;
 }
+
+html:not(.no-js) [data-aos^=zoom][data-aos^=zoom].aos-animate {
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+}
+.portfolio-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+/* src/components/Contact.css */
+.form-container {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  color: #495057; /* Dark gray label text */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Blue primary button color */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; 
+}
+
