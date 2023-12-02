@@ -13,11 +13,6 @@ const Contact = () => {
     console.log(`name:${name}, email,${email},msg:${message}`);
   };
 
-
-
-
- 
-  
   return (
     <Container className="mt-5" style={{paddingTop:"8rem", paddingBottom:"10rem"}}>
       <h1 className="text-center mb-5">Contact</h1>

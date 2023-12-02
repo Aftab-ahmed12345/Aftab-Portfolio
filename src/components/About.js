@@ -5,8 +5,7 @@ function About() {
     
 return (
     <>
-    
-    <div>
+      <div>
         <div className='container-fluid ' style={{marginTop:"10rem", backgroundColor:"black", color:"white",paddingTop:"10rem",paddingBottom:"10rem", paddingRight:"10rem", marginBottom:"10rem"}} > 
          <div className="row">
         
@@ -44,11 +43,8 @@ return (
                   
                 </Card.Body>
             </Card>
-            <div>
-      
-                    
-                
-            </div>
+            <div>       
+          </div>
         </div>
         <div className="col-sm-12 col-md-12 col-lg-6 ">
 
@@ -155,7 +151,6 @@ return (
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-4">
                     <Card style={{ width: '10rem', height:"12rem", justifyContent:"center", alignItems:"center", display:"flex", marginTop:"3rem"}}>
-                       
                         <Card.Body>
                           <div className="grid">
                           <Card.Title >
@@ -206,7 +201,7 @@ return (
                        
                         <Card.Body>
                           <div className="grid">
-                          <Card.Title >
+                          <Card.Title >  
                           <div class="grid-inner " ><h3 className='pt-4 '><span data-count="98" style={{ fontWeight:"bold"}}>80</span>%</h3></div>
                           </Card.Title>
                           <Card.Text  style={{paddingLeft:"0.20rem" }}>
